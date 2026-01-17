@@ -2,7 +2,7 @@
 
 import { EXPERIENCES } from "@/lib/constants";
 
-const calculateTotalYears = (experiences: typeof EXPERIENCES): string => {
+const calculateTotalYears = (experiences: Array<typeof EXPERIENCES[number]>): string => {
   if (experiences.length === 0) return "0+ Years of Experience";
 
   const dates = experiences.flatMap((exp) => {

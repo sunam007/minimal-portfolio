@@ -136,7 +136,7 @@ export const PROJECTS = [
     id: "project-1",
     title: "AI-Powered Resume Analyzer",
     brief: "ATS-friendly resume scoring and suggestions with real-time feedback for job seekers.",
-    image: "https://via.placeholder.com/800x600/000000/FFFFFF?text=AI+Resume+Analyzer",
+    image: "https://picsum.photos/id/237/800/600",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "FastAPI", "PostgreSQL"],
     liveUrl: "https://example.com/resume-analyzer",
     githubUrl: "https://github.com/username/resume-analyzer",
@@ -145,7 +145,7 @@ export const PROJECTS = [
     id: "project-2",
     title: "Project Management Dashboard",
     brief: "Minimalist Kanban-style dashboard for tracking sprints, tasks, and team velocity.",
-    image: "https://via.placeholder.com/800x600/000000/FFFFFF?text=Project+Dashboard",
+    image: "https://picsum.photos/id/870/800/600",
     techStack: ["React", "Node.js", "MongoDB", "Docker"],
     liveUrl: "https://example.com/project-dashboard",
     githubUrl: "https://github.com/username/project-dashboard",
@@ -154,7 +154,7 @@ export const PROJECTS = [
     id: "project-3",
     title: "Developer Portfolio Platform",
     brief: "Customizable portfolio generator for developers with theming and content management.",
-    image: "https://via.placeholder.com/800x600/000000/FFFFFF?text=Portfolio+Platform",
+    image: "https://picsum.photos/id/1015/800/600",
     techStack: ["Next.js", "Prisma", "PostgreSQL", "Tailwind CSS"],
     liveUrl: "https://example.com/dev-portfolio",
     githubUrl: "https://github.com/username/dev-portfolio",
@@ -259,7 +259,7 @@ export const ABOUT = {
     "Web Performance Optimization",
     "System Architecture Design",
   ],
-  profileImage: "https://via.placeholder.com/400x500/000000/FFFFFF?text=Profile+Photo",
+  profileImage: "https://picsum.photos/id/64/400/500",
 } as const;
 
 // Contact Information
@@ -343,7 +343,7 @@ export const BLOG_POSTS = [
 <p>Next.js 15 includes automatic image optimization, code splitting, and intelligent prefetching. These features work together to create lightning-fast user experiences while maintaining excellent developer ergonomics.</p>
 
 <p>By leveraging these new features, developers can build applications that scale effortlessly while providing exceptional user experiences.</p>`,
-    featuredImage: "https://via.placeholder.com/1200x600/000000/FFFFFF?text=Next.js+15+Guide",
+    featuredImage: "https://picsum.photos/id/1005/1200/600",
     date: "2024-01-15",
     category: "Web Development",
     slug: "building-scalable-web-applications-nextjs-15",
@@ -370,7 +370,7 @@ export const BLOG_POSTS = [
 <p>Design user interfaces that gracefully handle AI responses. Implement loading states, streaming responses, and error handling to provide smooth user experiences.</p>
 
 <p>Consider using WebSockets or Server-Sent Events for real-time AI interactions, especially for chat interfaces or streaming content generation.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=AI+Integration",
+    featuredImage: "https://picsum.photos/id/1001/800/600",
     date: "2024-01-10",
     category: "AI/ML",
     slug: "ai-integration-full-stack-applications",
@@ -397,7 +397,7 @@ export const BLOG_POSTS = [
 <p>Create indexes on frequently queried fields. Use Prisma's schema to define indexes, and regularly analyze query performance to identify optimization opportunities.</p>
 
 <p>Consider composite indexes for multi-field queries and ensure foreign key relationships are properly indexed for join operations.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=Prisma+ORM",
+    featuredImage: "https://picsum.photos/id/1002/800/600",
     date: "2024-01-05",
     category: "Backend",
     slug: "optimizing-database-performance-prisma",
@@ -424,7 +424,7 @@ export const BLOG_POSTS = [
 <p>Use ASGI servers like Uvicorn or Gunicorn with Uvicorn workers for production. Configure proper worker counts based on your application's I/O patterns.</p>
 
 <p>Implement graceful shutdowns, connection pooling, and proper environment configuration management for different deployment environments.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=FastAPI+Services",
+    featuredImage: "https://picsum.photos/id/1003/800/600",
     date: "2024-01-02",
     category: "Backend",
     slug: "shipping-production-ready-fastapi-services",
@@ -451,7 +451,7 @@ export const BLOG_POSTS = [
 <p>TypeScript provides built-in utility types like Partial, Required, Pick, and Omit. Understanding these and creating your own utility types can significantly improve code quality.</p>
 
 <p>Learn to compose utility types to solve complex type challenges and create reusable type patterns for your applications.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=TypeScript+Advanced",
+    featuredImage: "https://picsum.photos/id/1004/800/600",
     date: "2023-12-28",
     category: "Web Development",
     slug: "mastering-typescript-advanced-types-patterns",
@@ -478,7 +478,7 @@ export const BLOG_POSTS = [
 <p>Run containers as non-root users, scan images for vulnerabilities, and use minimal base images. Regularly update base images and dependencies to patch security issues.</p>
 
 <p>Implement proper secret management and avoid hardcoding sensitive information in Dockerfiles or images.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=Docker+Best+Practices",
+    featuredImage: "https://picsum.photos/id/1006/800/600",
     date: "2023-12-25",
     category: "DevOps",
     slug: "docker-containerization-best-practices",
@@ -505,7 +505,7 @@ export const BLOG_POSTS = [
 <p>Gradually adopt Server Components by identifying components that can be moved server-side. Start with data-fetching components and static content, then expand your usage.</p>
 
 <p>Understanding the boundary between Server and Client Components is crucial for successful adoption and optimal performance.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=React+Server+Components",
+    featuredImage: "https://picsum.photos/id/1008/800/600",
     date: "2023-12-20",
     category: "Frontend",
     slug: "react-server-components-future-web-development",
@@ -532,7 +532,7 @@ export const BLOG_POSTS = [
 <p>Implement connection pooling to manage database connections efficiently. Tools like PgBouncer can help manage connection overhead and improve application scalability.</p>
 
 <p>Configure pool sizes based on your application's concurrency needs and database server capacity to avoid connection exhaustion.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=PostgreSQL+Optimization",
+    featuredImage: "https://picsum.photos/id/1009/800/600",
     date: "2023-12-15",
     category: "Database",
     slug: "postgresql-performance-tuning-optimization",
@@ -559,7 +559,7 @@ export const BLOG_POSTS = [
 <p>Implement proper authentication using JWT tokens or session-based auth. Use middleware to protect routes and validate user permissions.</p>
 
 <p>Sanitize inputs, validate request data, and implement rate limiting to protect your API from abuse and security vulnerabilities.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=RESTful+APIs",
+    featuredImage: "https://picsum.photos/id/1010/800/600",
     date: "2023-12-10",
     category: "Backend",
     slug: "building-restful-apis-nodejs-express",
@@ -586,7 +586,7 @@ export const BLOG_POSTS = [
 <p>Deploy models to edge devices for low-latency inference. This requires model optimization techniques like quantization and pruning to fit resource constraints.</p>
 
 <p>Edge deployment enables real-time inference without network latency, making it ideal for applications requiring immediate responses.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=ML+Deployment",
+    featuredImage: "https://picsum.photos/id/1011/800/600",
     date: "2023-12-05",
     category: "AI/ML",
     slug: "machine-learning-model-deployment-strategies",
@@ -613,7 +613,7 @@ export const BLOG_POSTS = [
 <p>Start by updating your package.json and installing v4. Update your configuration file, then gradually test and fix any breaking changes in your styles.</p>
 
 <p>Use the migration tooling provided by Tailwind to identify and fix common migration issues automatically.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=Tailwind+v4",
+    featuredImage: "https://picsum.photos/id/1012/800/600",
     date: "2023-11-30",
     category: "Frontend",
     slug: "tailwind-css-v4-whats-new-migrate",
@@ -640,7 +640,7 @@ export const BLOG_POSTS = [
 <p>Use REST for simple CRUD operations, when caching is critical, or when you need to leverage HTTP features extensively. Choose GraphQL for complex data relationships, mobile applications with bandwidth constraints, or when you need flexible querying.</p>
 
 <p>Many applications benefit from a hybrid approach, using REST for simple operations and GraphQL for complex queries.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=GraphQL+vs+REST",
+    featuredImage: "https://picsum.photos/id/1013/800/600",
     date: "2023-11-25",
     category: "Backend",
     slug: "graphql-vs-rest-choosing-right-api-architecture",
@@ -667,7 +667,7 @@ export const BLOG_POSTS = [
 <p>Use secure authentication mechanisms like OAuth 2.0 or JWT tokens. Implement proper session management and use secure, HTTP-only cookies when appropriate.</p>
 
 <p>Implement role-based access control and principle of least privilege. Regularly audit permissions and revoke unnecessary access.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=Web+Security",
+    featuredImage: "https://picsum.photos/id/1014/800/600",
     date: "2023-11-20",
     category: "Security",
     slug: "web-security-best-practices-modern-applications",
@@ -694,7 +694,7 @@ export const BLOG_POSTS = [
 <p>Create indexes on fields used in $match and $sort stages. Use $limit and $skip strategically, and consider using $facet for parallel processing of multiple aggregations.</p>
 
 <p>Monitor aggregation performance and optimize slow pipelines by restructuring stages and ensuring proper indexing.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=MongoDB+Aggregation",
+    featuredImage: "https://picsum.photos/id/1016/800/600",
     date: "2023-11-15",
     category: "Database",
     slug: "mongodb-aggregation-pipeline-advanced-queries",
@@ -721,7 +721,7 @@ export const BLOG_POSTS = [
 <p>Automate deployments to staging and production environments. Use environment secrets for sensitive configuration and implement proper approval workflows for production deployments.</p>
 
 <p>Implement rollback strategies and monitor deployments to quickly identify and resolve issues in production.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=GitHub+Actions",
+    featuredImage: "https://picsum.photos/id/1018/800/600",
     date: "2023-11-10",
     category: "DevOps",
     slug: "cicd-pipelines-github-actions",
@@ -748,7 +748,7 @@ export const BLOG_POSTS = [
 <p>Start with Context API for simple needs and migrate to Redux if state management becomes complex. Consider Redux Toolkit to reduce boilerplate and simplify Redux usage.</p>
 
 <p>Many applications use both: Context API for simple global state and Redux for complex application state management.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=State+Management",
+    featuredImage: "https://picsum.photos/id/1019/800/600",
     date: "2023-11-05",
     category: "Frontend",
     slug: "state-management-react-context-api-vs-redux",
@@ -775,7 +775,7 @@ export const BLOG_POSTS = [
 <p>Transformer models like BERT and GPT have revolutionized NLP. Use pre-trained models from the transformers library for tasks like text classification, question answering, and text generation.</p>
 
 <p>Fine-tune pre-trained models on your specific domain to achieve better performance than training from scratch.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=NLP+Python",
+    featuredImage: "https://picsum.photos/id/1020/800/600",
     date: "2023-10-30",
     category: "AI/ML",
     slug: "natural-language-processing-python",
@@ -802,7 +802,7 @@ export const BLOG_POSTS = [
 <p>Distributed systems introduce complexity: network latency, partial failures, and data consistency. Implement proper monitoring, logging, and error handling to manage these challenges.</p>
 
 <p>Start with a monolith and extract services gradually. Don't over-engineer with microservices from the start; use them when complexity justifies the overhead.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=Microservices",
+    featuredImage: "https://picsum.photos/id/1021/800/600",
     date: "2023-10-25",
     category: "Backend",
     slug: "microservices-architecture-design-patterns-challenges",
@@ -829,7 +829,7 @@ export const BLOG_POSTS = [
 <p>Create app manifests for installability, implement push notifications, and use responsive design principles. Ensure fast load times and smooth animations.</p>
 
 <p>Test on various devices and network conditions to ensure your PWA provides a consistent, high-quality experience across all scenarios.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=PWA",
+    featuredImage: "https://picsum.photos/id/1022/800/600",
     date: "2023-10-20",
     category: "Web Development",
     slug: "progressive-web-apps-offline-first-applications",
@@ -856,7 +856,7 @@ export const BLOG_POSTS = [
 <p>Horizontal Pod Autoscaling automatically adjusts pod counts based on metrics. Use resource requests and limits to manage cluster resources efficiently.</p>
 
 <p>Monitor your cluster with proper logging and metrics collection. Use kubectl effectively and consider tools like Helm for package management.</p>`,
-    featuredImage: "https://via.placeholder.com/800x600/000000/FFFFFF?text=Kubernetes",
+    featuredImage: "https://picsum.photos/id/1023/800/600",
     date: "2023-10-15",
     category: "DevOps",
     slug: "kubernetes-orchestration-beginners-guide",
