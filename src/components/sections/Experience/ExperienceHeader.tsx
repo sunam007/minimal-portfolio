@@ -2,19 +2,26 @@
 
 import { EXPERIENCES } from "@/lib/constants";
 
-const calculateTotalYears = (experiences: Array<typeof EXPERIENCES[number]>): string => {
+const calculateTotalYears = (
+  experiences: Array<(typeof EXPERIENCES)[number]>
+): string => {
   if (experiences.length === 0) return "0+ Years of Experience";
 
   const dates = experiences.flatMap((exp) => {
     const start = new Date(exp.startDate + "-01");
-    const end = exp.endDate === "Present" ? new Date() : new Date(exp.endDate + "-01");
+    const end =
+      exp.endDate === "Present" ? new Date() : new Date(exp.endDate + "-01");
     return { start, end };
   });
 
-  const earliestStart = new Date(Math.min(...dates.map((d) => d.start.getTime())));
+  const earliestStart = new Date(
+    Math.min(...dates.map((d) => d.start.getTime()))
+  );
   const latestEnd = new Date(Math.max(...dates.map((d) => d.end.getTime())));
 
-  const yearsDiff = (latestEnd.getTime() - earliestStart.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
+  const yearsDiff =
+    (latestEnd.getTime() - earliestStart.getTime()) /
+    (1000 * 60 * 60 * 24 * 365.25);
   const years = Math.floor(yearsDiff);
 
   return `${years}+ Years of Experience`;

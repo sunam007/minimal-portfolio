@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
+
+A modern, responsive portfolio website built with Next.js 16, featuring a dark monochrome design, blog system, and dynamic content management.
+
+## Tech Stack
+
+- **Framework**: Next.js 16.1.1 (App Router)
+- **React**: 19.2.3
+- **Styling**: Tailwind CSS v4
+- **Language**: TypeScript
+- **Icons**: React Icons
+
+## Features
+
+- 🎨 **Modern Design**: Dark monochrome theme with smooth animations
+- 📱 **Fully Responsive**: Mobile-first design with optimized layouts
+- 📝 **Blog System**: Full-featured blog with filtering, pagination, and comments
+- 🚀 **Performance**: Optimized images, server components, and code splitting
+- 🔍 **SEO Ready**: Server-side rendering and metadata support
+- 💾 **Local Storage**: Bookmark and comment persistence
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/              # Next.js App Router pages
+│   ├── blog/         # Blog index and dynamic routes
+│   └── page.tsx      # Homepage
+├── components/
+│   ├── layout/       # Navbar, Footer, Container
+│   ├── sections/    # Homepage sections (Hero, About, Projects, etc.)
+│   └── ui/          # Reusable UI components
+└── lib/             # Constants and utilities
+```
 
-## Learn More
+## Configuration
 
-To learn more about Next.js, take a look at the following resources:
+- **Content**: Edit `src/lib/constants.ts` for projects, experiences, blog posts
+- **Images**: Configured for Picsum Photos (update `next.config.ts` for custom domains)
+- **Styling**: Global styles in `src/app/globals.css`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deploy to [Vercel](https://vercel.com) or any platform supporting Next.js:
 
-## Deploy on Vercel
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The site is optimized for production with automatic image optimization and static generation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+Private project - All rights reserved.
